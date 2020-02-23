@@ -1,17 +1,24 @@
-h1{
-    margin: auto;
+.wrapper{
+   border-style: solid;
+   margin: 20mm 20mm 20mm 70mm;
+   width: 210mm;
+   height: 297mm;
+}
+
+.d{ 
     text-align: center;
+    font-size: 25px;
 }
 
 .a{
     text-align: center;
     font-size: 25px;
-    padding-top: 300px;
+    margin-top: 80mm;
 }
 
 .b{
-   padding-top: 150px;
-   padding-left: 900px;
+   margin-top: 60mm;
+   margin-left: 80mm;
    font-size: 25px;
    line-height: 5px;
 }
@@ -21,7 +28,7 @@ span{
 }
 
 .c{
-   padding-top: 200px;
-   padding-left: 600px;
-   font-size: 20px;
+   margin-top: 50mm;
+   text-align: center;
+   font-size: 23px;
 }
