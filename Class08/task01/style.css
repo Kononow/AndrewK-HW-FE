@@ -1,33 +1,34 @@
 .wrapper{
-   border-style: solid;
-   margin: 20mm 20mm 20mm 70mm;
+   border: 1px solid black;
+   margin: 10mm auto;
    width: 210mm;
    height: 297mm;
 }
 
-.d{ 
+.a{ 
+    margin-top: 25mm;
     text-align: center;
     font-size: 25px;
-}
-
-.a{
-    text-align: center;
-    font-size: 25px;
-    margin-top: 80mm;
 }
 
 .b{
-   margin-top: 60mm;
-   margin-left: 80mm;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70mm;
+}
+
+.c{
+   margin-top: 55mm;
+   margin-left: 85mm;
    font-size: 25px;
-   line-height: 5px;
+   line-height: 0.2;
 }
 
 span{
    text-decoration: underline;
 }
 
-.c{
+.d{
    margin-top: 50mm;
    text-align: center;
    font-size: 23px;
