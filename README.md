@@ -8,3 +8,6 @@ Class07,task01 https://github.com/Kononow/FE-03-HW-AndrewK/tree/master/Class07/t
 Class07,task02 https://github.com/Kononow/FE-03-HW-AndrewK/tree/master/Class07/task02
 
 Class08,task01 https://github.com/Kononow/FE-03-HW-AndrewK/tree/master/Class08/task01
+
+Class09,task01 https://github.com/Kononow/FE-03-HW-AndrewK/tree/master/Class09/task01
+Class09,task02 https://github.com/Kononow/FE-03-HW-AndrewK/tree/master/Class09/task02
