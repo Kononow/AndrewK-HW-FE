@@ -1,0 +1,13 @@
+.a{
+    width: 200px;
+    height: 20px;
+    border: 2px solid blue;
+    
+}
+
+.b{
+    width: 72%;
+    height: 100%;
+    background-color: blueviolet;
+    text-align: center;
+}
