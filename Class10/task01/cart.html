@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+   <header>
+     <h1>Название магазина</h1>
+
+     <div class="menu">
+         <ul>
+             <li class="menu1"><a href="">Бытовая техника</a>
+                <ul class="menu_drop">
+                    <li><a href="">Стиральные машины</a></li>
+                    <li><a href=""> Пылесосы</a></li>
+                    <li><a href="">Швейные, вышивальные машины</a></li>
+                    <li><a href=""> Утюги</a></li>
+                    <li><a href="">Электровеники </a></li>
+                    <li><a href="">Сушилки для обуви</a></li>
+                </ul>
+            </li>
+             <li class="menu1"><a href="">Техника для кухни</a>
+                <ul class="menu_drop">
+                    <li><a href="">Холодильники </a></li>
+                    <li><a href="">Кухонные плиты </a></li>
+                    <li><a href=""> Морозильники </a></li>
+                    <li><a href="">Настольные плиты </a></li>
+                    <li><a href="">Ростеры, мини-печи </a></li>
+                    <li><a href=""> Вытяжки </a></li>
+                    <li><a href="">Микроволновые печи</a></li>
+                </ul>
+            </li>
+             <li class="menu1"><a href="">Компьютерная техника</a>
+                <ul class="menu_drop">
+                    <li><a href=""> Ноутбуки </a></li>
+                    <li><a href="">Планшеты </a></li>
+                    <li><a href="">Компьютеры, моноблоки </a></li>
+                    <li><a href="">Игровые приставки </a></li>
+                    <li><a href="">Серверное оборудование</a></li>
+                </ul>
+            </li>
+             <li class="menu1"><a href="">Корзина</a></li>
+         </ul>
+     
+        </div>
+    </header>
+
+    <div>
+        <p>Сделать заказ:</p>
+        <form action="">
+            <label for="fio">Фамилия и имя:</label><br>
+            <input type="text" name="fio" id="#fio" required><br>
+            <label for="nt">Номер телефона:</label><br>
+            <input type="text" name="nt" id="#nt" required><br>
+            <label for="E-mail">E-mail:</label><br>
+            <input type="email" name="E-mail" id="#E-mail" required><br>
+            <input type="submit" value="Отправить" class="sumb"><br>
+          
+         <ul>Выберите способ доставки:
+            <li> 
+             <span>Самовывоз со склада по адресу:</span>
+             <input type="checkbox" id="check1"> <label for="check1"> <span class="sp">ул. Мележа 1</span></label>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2348.561885876306!2d27.599142815860937!3d53.939526980107644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcf1521c9dc59%3A0xfa9eba8c67254cfb!2z0YPQuy4g0JzQtdC70LXQttCwIDEsINCc0LjQvdGB0Lo!5e0!3m2!1sru!2sby!4v1582978376623!5m2!1sru!2sby" frameborder="0" name="#if"></iframe>
+            </li>
+            <li>
+             <input type="checkbox" name="ku" id="kurer"> <label for="kurer"> <span class="sp">Курьером по Минску</span></label>
+             <label for="dostavka">Адрес доставки:</label> <input type="text" id="dostavka">
+            </li>
+            <li>
+                <textarea name="koment" id="kom" cols="30" rows="10" placeholder="Коментарий к заказу"></textarea>
+            </li>
+            <li>
+                <input type="checkbox" id="ys" required> <label for="po">Я прочитал и согласен с условиями доставки</label>
+            </li>
+            <li>
+                <input type="submit" id="po" value="Подтвердить заказ">
+            </li>
+         </ul>
+        </form>
+    </div>
+
+    <footer>
+        
+        <p>life +375255068480</p>
+         <p>A1 +375299734069</p>
+         <p>MTC +375336078450</p>
+         <p>Ул. Пушкина д.183.</p>
+       
+         
+         <ul>Время работы:
+             <li>Пн-пт 8.00-18.00</li>
+             <li>Сб-вс 9.00-16.00</li>
+             <li>Праздничные дни-выходной </li>
+         </ul>
+                
+    </footer>
+
+</body>
+</html>

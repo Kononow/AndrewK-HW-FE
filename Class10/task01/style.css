@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+h1{
+    text-align: center;
+}
+
+/*ВЫПОДАЮЩЕЕ МЕНЮ*/
+a,ul,li{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.menu{ 
+   display: flex;
+   text-align: center;
+   background-color: burlywood;
+   padding: 20px;
+}
+
+.menu1{
+    background-color: rgba(112, 112, 112, 0.425);
+    border-radius: 15px;
+    margin-left: 100px;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    width: 200px;
+}
+
+
+
+.menu_drop{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    padding-top: 20px;
+    background-color: coral;
+}
+
+div.menu :hover > .menu_drop {
+    display: block;
+    border-radius: 15px;
+}
+/*ВЫПОДАЮЩЕЕ МЕНЮ*/
+
+/*ФОРМА ЗАКАЗА*/
+div >p{
+    margin-top: 200px;
+    font-size: 30px;
+    text-align: center;
+}
+
+form{
+    padding-left: 600px;
+}
+
+input{
+    border-radius: 5px;
+}
+
+.sumb{
+    background-color: beige;
+    position: relative;
+    left: 50px;
+}
+
+.adres{
+    padding-left: 550px;
+    padding-top: 50px;
+}
+
+iframe{
+    position: relative;
+    right: 100px;
+    display: none;
+    width: 500px;
+    height: 250px;
+}
+
+.sp{
+    color: brown;
+    cursor: pointer;
+}
+
+#check1{
+    display: none;
+}
+
+input[id=check1]:checked~iframe{
+    display: block;
+}
+
+input[id=dostavka]{
+    display: none;
+}
+
+input[name=ku]{
+    display: none;
+}
+
+label[for=dostavka]{
+    display: none;
+}
+
+input[name="ku"]:checked~label[for=dostavka]{
+    display: block;
+}
+
+input[name="ku"]:checked~input[type="text"]{
+    display: block;
+}
+
+input[id=po]{
+    background-color: beige;
+    position: relative;
+    left: 50px;
+}
+
+footer{
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
