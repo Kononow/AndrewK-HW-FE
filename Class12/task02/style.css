@@ -1,0 +1,15 @@
+svg{
+  fill: silver;
+}
+#like{
+    display: none;
+}
+.heart_like:hover{
+    fill: blue;
+}
+input[id=like]:checked+.heart_like{
+    fill: red;
+}
+input[id=like]:checked:hover+.heart_like{
+    fill: rgb(199, 20, 20);
+}
