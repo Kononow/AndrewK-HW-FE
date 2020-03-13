@@ -1,15 +1,12 @@
 svg{
-  fill: silver;
-}
-#like{
-    display: none;
+    fill: silver;
 }
 .heart_like:hover{
     fill: blue;
 }
-input[id=like]:checked+.heart_like{
+.heart_like:visited{
     fill: red;
 }
-input[id=like]:checked:hover+.heart_like{
-    fill: rgb(199, 20, 20);
+.heart_like:visited:hover{
+    fill: rgba(255, 0, 0, 0.7);
 }

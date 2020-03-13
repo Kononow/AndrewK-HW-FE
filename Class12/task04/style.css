@@ -12,10 +12,12 @@
     position: relative;
     width: 1000px;
     height: 150px;
-    background-image: url(https://musicart.by/images/stories/logo.png);
-    background-repeat: no-repeat;
-    background-size: 350px;
-    background-position: left center;
+}
+img{
+    padding-top: 15px;
+    padding-left: 10px;
+    width: 350px;
+    height: 130px;
 }
 input[id=form]{
     width: 200px;
