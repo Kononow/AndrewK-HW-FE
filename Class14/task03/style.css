@@ -1,0 +1,25 @@
+img{
+    position: absolute;
+    left: 66px;
+    z-index: -1;
+}
+.fon1{
+    position: absolute;
+    width: 460px;
+    height: 135px;
+    background-color: white;
+}
+.fon2{
+    position: absolute;
+    left: 528px;
+    top: 8px;
+    width: 462px;
+    height: 135px;
+    background-color: white;
+}
+img:hover{
+    transform: translate(462px);
+    transition-timing-function: steps(7);
+    transition-duration: 0.5s;
+    animation-iteration-count: infinite;
+}

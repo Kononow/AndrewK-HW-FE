@@ -1,0 +1,14 @@
+.a1{
+    margin-top: 50px;
+    width: 1350px;
+    height: 200px;
+    background-color: rgb(127, 179, 149);
+}
+#aa:checked~img{
+    transform:  translate(1150px) rotate(360deg);
+    transition: 3s;
+}
+input{
+    display: none;
+}
+

@@ -1,0 +1,64 @@
+body{
+    background-color: silver;
+}
+.menu{
+    width: 100%;
+    height: 35%;
+    background-color: seagreen;
+}
+.menu1{
+    width: 20%;
+    height: 30%;
+    padding: 2em;
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 2em;
+}
+.menu_drop{
+    padding: 1.5em;
+    position: absolute;
+    display: none;
+    font-size: 0.7em;
+}
+.menu1:hover>.menu_drop{
+    display: inline-block;
+}
+.menu2{
+    width: 300px;
+    height: 200px;
+    display: none;
+    font-size: 18px;
+    background-color: seagreen;
+}
+.menu_drop2{
+    padding: 1px;
+    position: absolute;
+    display: none;
+    font-size: 18px;
+    margin-left: 100px;
+    background-color: rgb(35, 88, 58);
+}
+.menu12:hover>.menu_drop2{
+    display: inline;
+}
+.bute{
+    position: relative;
+    font-size: 10em;
+    width: 150px;
+    height: 500px;
+    background-color: seagreen;
+    display: none;
+}
+
+@media (max-width: 900px){
+    .menu{
+        display: none;
+    }
+    .bute{
+        display: inline;
+    }
+    .bute:hover>.menu2{
+        display: inline-block;
+    }
+}
+

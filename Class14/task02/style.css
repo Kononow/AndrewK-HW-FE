@@ -1,0 +1,16 @@
+*{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+img:hover{
+    animation: mm 6s;  
+    
+}
+@keyframes mm{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(1080deg);
+    }
+}

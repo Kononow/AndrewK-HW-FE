@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+}
+.a1,.a3{
+    width: 25%;
+    height: 100%;
+}
+.a2,.a22,.a4,.a44{
+    width: 25%;
+    height: 50%;
+}
+.a1{
+background-color: blue;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.a2{
+background-color: chocolate;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.a22{
+background-color: darkslateblue;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.a3{
+background-color: cornflowerblue;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.a4{
+background-color: darkcyan;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.a44{
+background-color: darkblue;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}

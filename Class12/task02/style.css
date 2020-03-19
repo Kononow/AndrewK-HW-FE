@@ -1,12 +1,12 @@
 svg{
     fill: silver;
 }
-.heart_like:hover{
+a.heart_like:hover svg{
     fill: blue;
 }
-.heart_like:visited{
+a.heart_like:visited svg{
     fill: red;
 }
-.heart_like:visited:hover{
-    fill: rgba(255, 0, 0, 0.7);
+a.heart_like:visited:hover svg{
+    fill: green;
 }
