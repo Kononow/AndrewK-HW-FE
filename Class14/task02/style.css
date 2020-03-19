@@ -1,16 +1,11 @@
-*{
-    margin-top: 30px;
-    margin-left: 120px;
+img{
+    position: relative;
+    left: 300px;
+    top: 100px;
+    transition: 6s;
+    -webkit-transition: 6s;
 }
 img:hover{
-    animation: mm 6s;  
-    
-}
-@keyframes mm{
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(1080deg);
-    }
+    transform: rotate(1080deg); 
+    -webkit-transform: rotate(1080deg); 
 }

@@ -4,11 +4,12 @@
     height: 200px;
     background-color: rgb(127, 179, 149);
 }
-#aa:checked~img{
-    transform:  translate(1150px) rotate(360deg);
+img{
     transition: 3s;
+    -webkit-transition: 3s;
 }
-input{
-    display: none;
+img:hover{
+    transform:  translate(1150px) rotate(360deg);
+    -webkit-transform: translate(1150px) rotate(360deg);
 }
 
