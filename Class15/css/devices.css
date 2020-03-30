@@ -1,0 +1,22 @@
+.container_devices {
+  width: 100%;
+  height: 15%;
+  background-color: green;
+}
+.container_devices .devices1 {
+  background-image: url();
+}
+.container_devices .devices2 {
+  background-image: url();
+}
+.container_devices .devices3 {
+  background-image: url();
+}
+.container_devices .devices4 {
+  background-image: url();
+}
+.container_devices .devices5 {
+  background-image: url();
+}
+
+/*# sourceMappingURL=devices.css.map */

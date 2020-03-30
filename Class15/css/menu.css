@@ -1,0 +1,26 @@
+.menu {
+  height: 50px;
+  background-color: #a4d1a4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+}
+.menu .menu_click {
+  width: 10%;
+  height: 60%;
+  padding-top: 5px;
+  text-align: center;
+  background-color: #80bd80;
+  border-radius: 10px;
+}
+.menu .menu_click:hover {
+  background-color: lightgreen;
+}
+.menu a {
+  text-decoration: none;
+  color: #15554c;
+}
+
+/*# sourceMappingURL=menu.css.map */

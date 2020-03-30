@@ -17,11 +17,12 @@ img{
     width: 462px;
     height: 135px;
     background-color: white;
-   
 }
 img:hover{
     transform: translate(396px);
+    -webkit-transform: translate(396px);
     transition-timing-function: steps(6);
+    -webkit-transition-timing-function: steps(6);
     transition-duration: 0.5s;
     animation-iteration-count: infinite;
 }

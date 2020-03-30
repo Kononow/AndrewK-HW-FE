@@ -1,0 +1,32 @@
+$colorTextButton: rgb(21, 85, 76);
+$colorFonMenu: rgb(164, 209, 164);
+$colorMenu: rgb(128, 189, 128);
+$distance: 50px;
+$maineFont: 18px;
+
+.menu{
+    height: $distance;
+    background-color: $colorFonMenu;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: $maineFont;
+
+    .menu_click{
+        width: 10%;
+        height: 60%;
+        padding-top: 5px;
+        text-align: center;
+        background-color: $colorMenu;
+        border-radius: 10px;
+    }
+    .menu_click:hover{
+        background-color: lightgreen;
+    }
+    
+    a{
+        text-decoration: none;
+        color: $colorTextButton;
+    }
+}

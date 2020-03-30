@@ -2,26 +2,29 @@
     margin: 0;
     padding: 0;
 }
-.hed{
+.wrapper{
     position: absolute;
     width: 100%;
     height: 100%;
     background-image: url(https://enigma-project.ru/wp-content/uploads/2017/03/lekciya-1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    z-index: -3;
+    
 }
 .fone{
     background-color: rgba(0, 0, 0, 0.3);
-    z-index: -2;
+    width: 100%;
+    height: 100%;
 }
 .top{
-    height: 20%;
+    height: 15%;
 }
-.logo{
-    font-size: 20px;
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; 
 }
-p,a,h1{
+p,a{
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
@@ -51,26 +54,38 @@ a{
     justify-content: space-around;
     z-index: 1;
 }
-a::before{
-    content: '';
-    margin-top: -3px;
-    margin-left: -4px;
-    position: absolute;
-    background-color: white;
-    width: 23px;
-    height: 23px;
-    display: inline-block;
-    border-radius: 50%;
-    z-index: -1;
-}
-a:hover::before{
-    width: 30px;
-    height: 30px;
-}
 .top_center{
-    height: 20%;
+    height: 15%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
-
+.center{
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+div.center>div{
+    width: 15%;
+    height: 15%;
+}
+.bottom{
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.button{
+    width: 220px;
+    height: 40px;
+    background-color: rgb(238, 143, 130);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
