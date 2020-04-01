@@ -1,0 +1,43 @@
+.container-fluid{
+    text-align: center;
+    background-color: grey;
+}
+
+.row{
+    padding: 5px;
+}
+
+.export{
+    label{
+       cursor: pointer;
+    }
+   input{
+       display: none;
+   }
+   iframe{
+       display: none;
+   }
+}
+
+input[id=c1]:checked~iframe{
+    display: inline;
+}
+
+.courer{
+    label{
+        cursor: pointer;
+     }
+    input[type=checkbox]{
+        display: none;
+    }
+    input[id=c3]{
+        display: none;
+    }
+}
+input[id=c2]:checked~input[id=c3]{
+    display: inline-block;
+}
+ul li{
+   list-style-type: none;
+}
+

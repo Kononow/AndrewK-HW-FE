@@ -1,0 +1,42 @@
+.container-fluid {
+  text-align: center;
+  background-color: grey;
+}
+
+.row {
+  padding: 5px;
+}
+
+.export label {
+  cursor: pointer;
+}
+.export input {
+  display: none;
+}
+.export iframe {
+  display: none;
+}
+
+input[id=c1]:checked ~ iframe {
+  display: inline;
+}
+
+.courer label {
+  cursor: pointer;
+}
+.courer input[type=checkbox] {
+  display: none;
+}
+.courer input[id=c3] {
+  display: none;
+}
+
+input[id=c2]:checked ~ input[id=c3] {
+  display: inline-block;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+/*# sourceMappingURL=style1.css.map */
