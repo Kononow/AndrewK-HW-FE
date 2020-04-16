@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+          //ЗАДАНИЕ 1
+        let apartment = prompt("Введите номер квартиры:");
+     
+        if (apartment <= 0 || apartment > 100) {
+            console.log("Такой квартиры нет .!.")
+        } 
+        if (apartment <= 20 && apartment >= 1) {
+            console.log("Подьезд 1")
+        }
+        if (apartment > 20 && apartment <= 40) {
+            console.log("Подьезд 2")
+        }
+        if (apartment > 40 && apartment <= 60) {
+            console.log("Подьезд 3")
+        }
+        if (apartment > 60 && apartment <= 80) {
+            console.log("Подьезд 4")
+        }
+        if (apartment > 80 && apartment <= 100) {
+            console.log("Подьезд 5")
+        }
+              
+    </script>
+</body>
+
+</html>
