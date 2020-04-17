@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //Class20js
+
+        //Task 1. Создайте функцию, которая получает в качестве аргументов три числа и возвращает наименьшее из них
+        function threeNumbers(a, b, c) {
+            if (a < b && a < c) {
+                return a + " Наименьшее число";
+            }
+            if (b < a && b < c) {
+                return b + " Наименьшее число";
+            }
+            if (c < a && c < b) {
+                return c + " Наименьшее число";
+            }
+        }
+
+        let a = prompt("Введите первое число");
+        let b = prompt("Введите второе число");
+        let c = prompt("Введите третье число");
+
+        console.log(threeNumbers(a, b, c));
+
+        //Task 2. Создайте функцию, которая получает в качестве аргументов значения суток, часов и минут, а возвращает соответствующее им количество секунд.
+        function seconds(d, e, f) {
+
+            return (d * 86400) + (e * 3600) + (f * 60) + " секунд";
+
+        }
+
+        let d = prompt("Введите количество суток");
+        let e = prompt("Введите количество часов");
+        let f = prompt("Введите количество минут");
+
+        console.log(seconds(d, e, f));
+
+        //Task 3. Напишите рекурсивную функцию для подсчёта факториала числа.
+        function factorial(g) {
+            return (g != 1) ? g * factorial(g - 1) : 1;
+        }
+
+        let g = prompt("Введите число для вычисления факториала");
+
+        console.log(factorial(g));
+
+        //Task 4. Напишите рекурсивную функцию, которая разворачивает введённое число задом наперёд.
+        function backwards(h) {
+            let fiveNumber = h % 10;          let i=Math.floor(h / 10);
+            let fourNumber = i % 10;          let j=Math.floor(h / 100);
+            let threeNumber = j % 10;         let k=Math.floor(h / 1000);
+            let twoNumber = k % 10;           let l=Math.floor(h / 10000);
+            let firstNumber = l % 10;
+
+            console.log( fiveNumber,fourNumber,threeNumber,twoNumber,firstNumber)
+        }
+
+        let h = prompt("Введите пятизначное число");
+
+        backwards(h);
+
+        //Task 5.  Напишите функцию для решения квадратных уравнений.
+        
+    </script>
+</body>
+
+</html>
