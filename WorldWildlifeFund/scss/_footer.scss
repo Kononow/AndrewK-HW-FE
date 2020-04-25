@@ -1,0 +1,69 @@
+.footer {
+    margin-top: 100px;
+    .signup-login {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 70px;
+        background-color: black;
+        .signup {
+            
+            p {
+                padding-top: 25px;
+                text-align: center;
+                color: rgb(199, 191, 191);
+                font-family: "Yantramanav", sans-serif;
+                a {
+                    margin-left: 10px;
+                    padding: 8px 20px 8px 8px;
+                    background-color: chocolate;
+                    color: white;
+                    text-decoration: none;
+                    &:hover{
+                        background-color: rgb(218, 215, 67);
+                    }
+                }
+            }
+        }
+        .login {
+            p {
+                padding-top: 25px;
+                text-align: center;
+                color: rgb(199, 191, 191);
+                font-family: "Yantramanav", sans-serif;
+                a {
+                    margin-left: 10px;
+                    padding: 8px 20px 8px 8px;
+                    background-color: chocolate;
+                    color: white;
+                    text-decoration: none;
+                    &:hover{
+                        background-color: rgb(218, 215, 67);
+                    }
+                }
+            }
+        }
+    }
+    .contacts{
+        margin-left: 150px;
+        height: 300px;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        p{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            a{
+                color: blue;
+                text-decoration: none;
+            }
+        }
+        .social{
+            width: 25%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+}

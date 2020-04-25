@@ -1,0 +1,526 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Yantramanav&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+
+.wrapper {
+    .header {
+        .header768 {
+          
+            display: none;
+            width: 100%;
+            .logo-burg {
+                width: 100%;
+                height: 150px;
+                background-color: white;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                position: relative;
+                
+                z-index: 9;
+
+                .l {
+                    width: 100%;
+                    height: 100%;
+                   display: flex;
+                   flex-direction: row-reverse;
+                }
+            }
+            label{
+                width: 20px;
+                position: absolute;
+                top: 35px;
+                z-index: 9;
+                
+            }
+            input {
+                display: none;
+                &:checked ~ .mini-menu-drop {
+                    top: 150px;
+                    transition: 0.05s;
+                }
+
+            }
+          
+            .cnop {
+                width: 100%;
+                height: 30%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                color: white;
+                font-size: 1em;
+                &:hover {
+                    cursor: pointer;
+                }
+                .D {
+                    padding-top: 15px;
+                    text-align: center;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgb(216, 106, 16);
+                }
+                .A {
+                    padding-top: 15px;
+                    text-align: center;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgb(255, 175, 2);
+                }
+            }
+
+            .mini-menu-drop {
+                transition: 0.1s;
+                width: 100%;
+                height: 270px;
+                position: absolute;
+                top: -500px;
+                background-color: rgb(49, 47, 47);
+                z-index: 5;
+
+                .mini-menu {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+
+                    div {
+                        padding: 14px 0 14px 0;
+                        text-align: center;
+                        a {
+                            color: white;
+                            font-size: 1em;
+                            text-decoration: none;
+                        }
+                    }
+                    .colcnop {
+                        padding: 14px 0 14px 0;
+                        text-align: center;
+                        background-color: rgb(216, 106, 16);
+                        a {
+                            color: white;
+                            font-size: 1em;
+                            text-decoration: none;
+                        }
+                    }
+                    .colcnop2 {
+                        padding: 14px 0 14px 0;
+                        text-align: center;
+                        background-color: rgb(255, 175, 2);
+                        a {
+                            color: white;
+                            font-size: 1em;
+                            text-decoration: none;
+                        }
+                    }
+                }
+                .poisk {
+                    #rr {
+                        display: inline-block;
+                        width: 90%;
+                        height: 30px;
+                        border-radius: 5px;
+                        margin: 3% 0 0 4%;
+                    }
+                    button {
+                        position: absolute;
+                        bottom: 28px;
+                        right: 50px;
+                        border: none;
+                        background-color: white;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .wrapper-header {
+            width: 100%;
+            min-height: 470px;
+            display: grid;
+            grid-template-columns: 12% 1fr 1.3fr;
+            grid-template-rows: 350px 50px 120px;
+            justify-items: center;
+            background: radial-gradient(ellipse at top, rgba(0, 0, 0, 0.45) 34%, rgba(0, 0, 0, 0) 67%),
+                url(https://c402277.ssl.cf1.rackcdn.com/photos/18831/images/hero_full/Medium_WW226245.jpg?1585690158);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            /*Логотип панда*/
+            .header-logo {
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                .logo {
+                    width: 100px;
+                    height: 120px;
+                    background-image: url(https://www.vladtime.ru/uploads/posts/2014-09/thumbs/1412046297_article-text-big-1332329280_215.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+            /*центральное меню*/
+            .nav-menu-center {
+                width: 75%;
+                position: relative;
+
+                ul {
+                    font-size: 22px;
+                    font-family: "Oswald", sans-serif;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                    grid-template-rows: 1fr;
+                    padding-top: 20px;
+                    text-align: center;
+                    list-style-type: none;
+
+                    li {
+                        &:hover {
+                            background-color: white;
+                            transition: 0.25s;
+                        }
+                        &:hover a {
+                            color: rgb(42, 42, 240);
+                            transition: 0.25s;
+                        }
+                        &:hover .contein {
+                            display: block;
+                            transition: 0.25s;
+                        }
+                        a {
+                            color: white;
+                            text-decoration: none;
+                            text-transform: uppercase;
+                        }
+                        .contein {
+                            display: none;
+                            transition: 0.25s;
+
+                            .menu-drop {
+                                position: absolute;
+                                width: 570px;
+                                height: 220px;
+                                background-color: white;
+
+                                display: grid;
+                                grid-template-columns: 400px 170px;
+                                grid-template-rows: 180px 40px;
+
+                                .menu-drop-center {
+                                    ul {
+                                        div {
+                                            width: 150px;
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: flex-start;
+                                            align-items: flex-start;
+                                            flex-wrap: wrap;
+                                            padding: 0 0 0 5px;
+                                            margin-left: 20px;
+                                        }
+
+                                        li {
+                                            &:hover a {
+                                                border-bottom: solid 0.1px rgb(172, 172, 172);
+                                                color: rgb(42, 42, 240);
+                                            }
+
+                                            a {
+                                                color: black;
+                                                font-family: Arial, Helvetica, sans-serif;
+                                                font-size: 14px;
+                                                text-transform: none;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .menu-drop-right {
+                                    width: 170px;
+                                    height: 220px;
+                                    background-color: rgb(239, 236, 255);
+
+                                    ul {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: flex-start;
+                                        align-items: flex-start;
+                                        margin-top: -13px;
+
+                                        li {
+                                            width: 100%;
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: flex-start;
+                                            border-bottom: 0.1px rgb(185, 183, 183) solid;
+
+                                            &:hover {
+                                                background-color: rgb(39, 39, 247);
+                                                transition: 0.25s;
+                                            }
+                                            &:hover a {
+                                                color: white;
+                                                transition: 0.25s;
+                                            }
+                                            a {
+                                                color: rgb(77, 75, 238);
+                                                font-family: Arial, Helvetica, sans-serif;
+                                                font-size: 14px;
+                                                text-transform: none;
+                                                padding-top: 17px;
+                                                padding-left: 10px;
+                                                padding-bottom: 7px;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .menu-drop-bottom {
+                                    width: 400px;
+                                    height: 40px;
+                                    background-color: white;
+                                    border-top: 0.1px rgb(185, 183, 183) solid;
+
+                                    ul {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: flex-start;
+                                        align-items: flex-start;
+                                        padding: 0 0 0 15px;
+
+                                        li {
+                                            text-transform: none;
+
+                                            a {
+                                                color: blue;
+                                                font-family: Arial, Helvetica, sans-serif;
+                                                font-size: 14px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            /*главная надпись*/
+            .heading {
+                width: 100%;
+                display: grid;
+                grid-column: 1/4;
+                position: relative;
+                z-index: 1;
+                h1 {
+                    padding-left: 5%;
+                    color: white;
+                    font-size: 45px;
+                    font-family: "Archivo Black", sans-serif;
+                }
+                p {
+                    padding-left: 5%;
+                    font-family: "Yantramanav", sans-serif;
+                    color: white;
+                    font-size: 23px;
+                    span {
+                        font-style: italic;
+                    }
+                }
+            }
+            /*правая менюшка*/
+            .nav-right {
+                position: relative;
+                display: grid;
+                grid-template-columns: 3fr 2fr 1fr 1fr;
+                padding-top: 20px;
+                /*первая правая менюшка */
+                .nav-menu-right {
+                    ul {
+                        font-size: 14px;
+                        font-family: "Rubik", sans-serif;
+                        list-style-type: none;
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        li {
+                            padding: 10px 10px 10px 0;
+                            &:hover .contein-right {
+                                display: block;
+                            }
+                            &:hover {
+                                background-color: rgb(44, 42, 42);
+                                transition: 0.25s;
+                            }
+                            a {
+                                padding-left: 20px;
+                                color: white;
+                                text-decoration: none;
+                            }
+                            .contein-right {
+                                display: none;
+                                .nav-menu-right-drop {
+                                    position: absolute;
+                                    ul {
+                                        width: 200px;
+                                        height: 250px;
+                                        background-color: rgb(44, 42, 42);
+
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: flex-start;
+                                        align-items: flex-start;
+                                        li {
+                                            font-size: 13px;
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: space-around;
+                                            align-items: flex-start;
+                                            a {
+                                                color: rgb(194, 192, 192);
+                                                text-decoration: none;
+                                                &:hover {
+                                                    color: white;
+                                                    border-bottom: rgb(105, 105, 105);
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                /*Поиск*/
+                .search {
+                    margin-top: 3px;
+                    width: 120px;
+                    height: 30px;
+                    position: relative;
+                    input {
+                        width: 120px;
+                        height: 30px;
+                        border-radius: 3px;
+                        border: none;
+                    }
+                    button {
+                        position: absolute;
+                        right: 12px;
+                        top: 7px;
+                        border: none;
+                        background-color: white;
+                        cursor: pointer;
+                    }
+                }
+
+                /*второе правое меню*/
+                .nav-menu-right2 {
+                    .ob {
+                        text-align: center;
+                        width: 100%;
+                        height: 10%;
+                        padding-top: 10px;
+                        background-color: rgb(228, 126, 42);
+                        border-radius: 2px;
+
+                        &:hover .contein-right2 {
+                            display: block;
+                        }
+                        &:hover {
+                            background-color: rgb(44, 42, 42);
+                            transition: 0.25s;
+                        }
+                        a {
+                            color: white;
+                            font-family: "Rubik", sans-serif;
+                            text-decoration: none;
+                            list-style-type: none;
+                        }
+
+                        .contein-right2 {
+                            display: none;
+
+                            .nav-menu-drop-right2 {
+                                position: absolute;
+                                margin-top: 13px;
+                                background-color: rgb(44, 42, 42);
+                                width: 185px;
+                                height: 240px;
+                                ul {
+                                    li {
+                                        padding: 15px 0 0 15px;
+                                        font-size: 14px;
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: flex-start;
+
+                                        list-style-type: none;
+                                        a {
+                                            text-decoration: none;
+                                            color: rgb(194, 192, 192);
+                                            &:hover {
+                                                color: white;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .nav-menu-right22 {
+                .ob {
+                    width: 100%;
+                    height: 10%;
+                    padding-top: 10px;
+                    background-color: rgb(243, 170, 35);
+                    border-radius: 2px;
+                    text-align: center;
+                    &:hover {
+                        background-color: rgb(44, 42, 42);
+                        transition: 0.25s;
+                    }
+                    &:hover .contein-right22 {
+                        display: block;
+                    }
+
+                    a {
+                        color: white;
+                        font-family: "Rubik", sans-serif;
+                        text-decoration: none;
+                        list-style-type: none;
+                    }
+
+                    .contein-right22 {
+                        display: none;
+
+                        .nav-menu-drop-right22 {
+                            position: absolute;
+
+                            margin-top: 13px;
+                            background-color: rgb(44, 42, 42);
+                            width: 100px;
+                            height: 150px;
+                            ul {
+                                li {
+                                    padding: 15px 0 0 15px;
+                                    font-size: 14px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: flex-start;
+
+                                    list-style-type: none;
+                                    a {
+                                        text-decoration: none;
+                                        color: rgb(194, 192, 192);
+                                        &:hover {
+                                            color: white;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
